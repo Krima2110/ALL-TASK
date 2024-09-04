@@ -97,16 +97,17 @@ table, td ,th{
   }
 }
 
-@media only screen and(max-width: 480px){
+@media only screen and (max-width: 480px){
     .card{
         width: 100%;
         padding:0%
-        box-shadow: none;
+        box-shadow  none;
     }
     body{
         background-color: hsl(0,0%,100%);
     }
-    .container{
+    .container
+    {
         height: 100%;
     }
 }
